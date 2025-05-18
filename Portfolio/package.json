@@ -1,0 +1,30 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio website to showcase projects and skills.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
+  }
+}
